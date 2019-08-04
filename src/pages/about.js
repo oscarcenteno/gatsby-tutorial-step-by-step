@@ -3,10 +3,10 @@ import Header from "../components/header"
 import { Link } from "gatsby"
 
 export default () => (
-  <div style={{ color: `purple` }}>
+  <div style={{ color: `teal` }}>
     <Link to="/contact/">Contact</Link>
-    <Header text="Index" />
-    <p>What a world.</p>
-    <img src="https://source.unsplash.com/random/400x200" alt="" />
+    <Header text="About" />
+    <Header text="It's pretty cool" />
+    <p>Such wow. Very React.</p>
   </div>
 )
